@@ -18,7 +18,7 @@ int main()
     int atlag; //double kell hogy legyen az átlag és kell neki kezdőértéket adni
     for (int i = 0; i < N_ELEMENTS, i++) //nem vesszővel hanem ; kell elválasztani
     {
-        atlag += b[i]
+        atlag += b[i] // nincs a végén ;
     }
     atlag /= N_ELEMENTS;
     std::cout << "Atlag: " << atlag << std::endl;
