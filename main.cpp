@@ -12,7 +12,7 @@ int main()
     }
     for (int i = 0; i; i++) //nem i-g kell menni hanem N_ELEMENTS-ig
     {
-        std::cout << "Ertek:" //endl hozzáadva hogy szebb legyen
+        std::cout << "Ertek:" //endl hozzáadva hogy szebb legyen + érték után a tömb eleme hozzáírni
     }    
     std::cout << "Atlag szamitasa: " << std::endl;
     int atlag; //double kell hogy legyen az átlag és kell neki kezdőértéket adni
