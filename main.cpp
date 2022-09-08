@@ -20,6 +20,7 @@ int main()
     {
         atlag += b[i]; 
     }
+    std::cout << "Összeg: " << atlag << std::endl;
     atlag /= N_ELEMENTS;
     std::cout << "Atlag: " << atlag << std::endl;
     return 0;
